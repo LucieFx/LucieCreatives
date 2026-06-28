@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <filter id="g"><feTurbulence type="fractalNoise" baseFrequency="0.038" numOctaves="5" seed="7"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0.35 1"/></feComponentTransfer></filter>
+  <rect width="500" height="500" fill="white"/>
+  <rect width="500" height="500" filter="url(#g)" opacity=".38"/>
+</svg>

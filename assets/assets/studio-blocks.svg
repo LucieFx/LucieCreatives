@@ -1,0 +1,11 @@
+<svg width="900" height="640" viewBox="0 0 900 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="900" height="640" fill="#161616"/>
+<rect x="60" y="90" width="220" height="460" fill="#e6e1d6"/>
+<rect x="285" y="160" width="170" height="390" fill="#0d0d0d"/>
+<rect x="460" y="70" width="160" height="480" fill="#c7c7c7"/>
+<rect x="625" y="185" width="220" height="365" fill="#111"/>
+<rect x="90" y="130" width="120" height="230" fill="#292929"/>
+<rect x="500" y="115" width="70" height="270" fill="#555"/>
+<path d="M50 530c170-42 350-50 520 0 120 35 205 12 278-36" stroke="#643ABA" stroke-width="10"/>
+<text x="54" y="72" fill="#643ABA" font-family="Impact, Arial Black" font-size="42">MEDIAHOUSE 2026</text>
+</svg>
