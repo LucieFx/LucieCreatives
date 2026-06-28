@@ -1,0 +1,28 @@
+<svg width="900" height="700" viewBox="0 0 900 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="900" height="700" fill="#111"/>
+<defs>
+  <linearGradient id="p" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff7df"/><stop offset="1" stop-color="#643ABA"/></linearGradient>
+  <filter id="noise"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3"/><feBlend mode="multiply" in2="SourceGraphic"/></filter>
+</defs>
+<rect x="42" y="42" width="275" height="390" fill="#d9d9d9"/>
+<circle cx="180" cy="143" r="58" fill="#454545"/>
+<path d="M80 380c12-98 60-158 107-158s87 66 91 158H80Z" fill="#2e2e2e"/>
+<rect x="350" y="42" width="508" height="178" fill="#303030"/>
+<rect x="386" y="74" width="74" height="112" fill="#d9d9d9"/>
+<rect x="488" y="74" width="74" height="112" fill="#777"/>
+<rect x="590" y="74" width="74" height="112" fill="#d9d9d9"/>
+<rect x="692" y="74" width="74" height="112" fill="#777"/>
+<rect x="350" y="252" width="220" height="390" fill="#cfcfcf"/>
+<circle cx="460" cy="360" r="55" fill="#4a4a4a"/>
+<path d="M385 585c20-92 55-143 87-143 40 0 75 60 82 143H385Z" fill="#1a1a1a"/>
+<rect x="604" y="252" width="254" height="390" fill="#202020"/>
+<rect x="632" y="282" width="198" height="270" rx="36" fill="#0a0a0a" stroke="#fff7df" stroke-width="10"/>
+<rect x="665" y="332" width="132" height="72" rx="14" fill="#d9d9d9"/>
+<rect x="665" y="430" width="132" height="24" fill="#555"/>
+<rect x="665" y="470" width="102" height="24" fill="#555"/>
+<path d="M70 505c138-72 295-90 483-47 141 32 233 9 292-28" stroke="#643ABA" stroke-width="11" stroke-linecap="round"/>
+<path d="M68 542c174-67 314-70 495-26 124 30 202 17 276-30" stroke="#643ABA" stroke-width="5" stroke-linecap="round"/>
+<text x="52" y="642" fill="#fff7df" font-family="Impact, Arial Black, sans-serif" font-size="86" letter-spacing="-5">CREATOR NETWORK</text>
+<text x="56" y="90" fill="#643ABA" font-family="Arial Black" font-size="22" letter-spacing="4">MEDIAHOUSE</text>
+<rect width="900" height="700" filter="url(#noise)" opacity=".18"/>
+</svg>
