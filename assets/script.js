@@ -39,3 +39,14 @@ copyEmailButton?.addEventListener('click', async () => {
     window.location.href = `mailto:${email}`;
   }
 });
+
+function sendMail(event) {
+  event.preventDefault();
+  const name = encodeURIComponent(document.getElementById('name').value.trim());
+  const type = encodeURIComponent(document.getElementById('type').value);
+  const message = encodeURIComponent(document.getElementById('message').value.trim());
+  const subject = encodeURIComponent(`Mediahouse website enquiry - ${decodeURIComponent(type)}`);
+  const body = encodeURIComponent(`Name: ${decodeURIComponent(name)}\nType: ${decodeURIComponent(type)}\n\nMessage:\n${decodeURIComponent(message)}`);
+  window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;
+  return false;
+}
